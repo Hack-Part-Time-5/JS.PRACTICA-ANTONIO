@@ -1,0 +1,24 @@
+.listado{
+    font-size: 25px ;
+    margin-left: 25px;
+}
+
+.header{
+    height: 150px;
+    background-image:url(java-script1.jpg); 
+    background-position: center;
+    background-size: contain;
+   
+}
+.h1{
+    font-size: 45px;
+    margin-left: 55px;
+    
+    font-weight: 900;
+    
+}
+
+.ul{
+    text-decoration: inherit !important;
+   
+}
