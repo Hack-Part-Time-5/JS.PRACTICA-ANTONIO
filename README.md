@@ -1,1 +1,2 @@
-# JS1aPractica
+# JS
+Practica
