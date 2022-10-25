@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+// //Crear un programa que calcule el factorial de un número
+//n, donde el valor de n se recibe desde el “prompt” y
+//además se verifique si el valor es de tipo number. Si no lo
+//es, se sale del programa con un mensaje de error.
+
+
+
+// let n = Number(prompt("Introduzca un número "));
+// let y = 1;
+
+// if(n >= 0){
+//     for (let n = 1; z <= n; z++){
+//         y = n * y;
+//         console.log("z = " + n + ". Factorial = " + y)
+//     }
+// }else{
+//     alert("ERROR")
+// }
+
+
+// console.log("Fin")
+
+let n = Number(prompt("Introduce un número"));
+let total=1; 
+
+if(typeof n==="number" && !Number.isNaN(n)){
+for (let i = 1; i <= n; i++) {
+ console.log (total=total*i);  
+    
+}
+
+}
+else{
+    alert("ERROR")
+}
+
+console.log(n);
+
+
+    </script>
+</body>
+</html>
